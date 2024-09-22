@@ -1,0 +1,126 @@
+.menu-container{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.logo{
+    width: 250px;
+    margin-right: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.manus{
+    list-style: none;
+    display: flex;
+  
+    
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 20px;
+   
+}
+.item:hover{
+    color: blue;
+}
+/* banner start */
+.btn{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+   transition: transform 0.3s;
+    
+   
+}
+.btn:hover{
+    background-color:tomato;
+    transform: translatey(-10px);
+    box-shadow: 0 4px 4px 4px rgba(139, 136, 136, 0.842);
+    color: aqua;
+
+}
+
+.banner{
+    padding-top: 200px;
+    margin-left: 100px;
+    display: flex;
+    background-image: url(img/background.png);
+}
+.banner-img img{
+    width: 400px;
+    margin-left: 300px;
+
+}
+.text h1{
+    font-size: 50px;
+}
+.bg{
+    background-color: black;
+    color: #fff;
+}
+
+/* banner end */
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.about-img img{
+    width: 400px;
+    margin-left: 100px;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.himu{
+    display: flex;
+}
+.text3{
+    margin-left: 100px;
+}
+/* banner end */
+
+.icon img{
+width: 80px;
+
+
+}
+.titeal2{
+    text-align: center;
+    font-size: 30px;
+}
+.card{
+    background-color: black;
+    color: #fff;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 4px 7px rgba(116, 115, 115, 0.726);
+    transition: transform 0.3s;
+     
+    
+}
+.card:hover{
+    transform: translatey(-10px);
+   transform: rotate(45deg);
+    
+}
+
+.main-card{
+    display: flex;
+    gap: 70px;
+    margin-left: 80px;
+}
